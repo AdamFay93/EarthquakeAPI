@@ -8,6 +8,18 @@
 </head>
 <body>
     <h1>Latest EarthQuake Information</h1>
+    <form id="submitdates">
+        <div style="width:100%;border:none;">
+            <label>Between&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Start Date</label>
+            <input type="date" id="startdate" required />
+            <label>And&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;End Date</label>
+            <input type="date" id="enddate" required />
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <div style="width:100%;border:none;">
+        <button type="button" id="LatestButton">Get Latest Info</button>
+    </div>
     <script src="script.js" defer></script>
 </body>
 </html>
